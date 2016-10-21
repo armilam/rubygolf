@@ -1,7 +1,7 @@
 class Golf
 
   def self.hole1(a)
-    a.reduce 1, :*
+    a.reduce :*
   end
 
   def self.hole2
